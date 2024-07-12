@@ -16,6 +16,8 @@ response times, CPU usage, and database connections. Here's a summary of the key
 This setup allows you to gain valuable insights into the performance and health of your Spring Boot application and take
 proactive measures to ensure its smooth operation.
 
+You can also access metrics at http://localhost:8080/actuator/prometheus.
+
 ### Note: Grafana has not been integrated in this application
 
 - Set up Grafana to visualize the metrics collected by Prometheus.
@@ -43,6 +45,7 @@ Example Grafana Panels:
 
 - Metric: hikaricp_connections_active
 
+#### Screenshots
 
 ![img.png](http_server_requests_seconds.png)
 
