@@ -45,5 +45,7 @@ Example Grafana Panels:
 
 
 ![img.png](http_server_requests_seconds.png)
+
 ![img.png](jvm_memory_used_bytes.png)
+
 ![img_1.png](process_cpu_usage.png)
