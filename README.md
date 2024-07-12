@@ -18,7 +18,7 @@ proactive measures to ensure its smooth operation.
 
 You can also access metrics at http://localhost:8080/actuator/prometheus.
 
-### Note: Grafana has not been integrated in this application
+#### Note: Grafana has not been integrated in this application
 
 - Set up Grafana to visualize the metrics collected by Prometheus.
 - Add Prometheus as a Data Source:
@@ -33,6 +33,8 @@ You can also access metrics at http://localhost:8080/actuator/prometheus.
 
 Example Grafana Panels:
 
+## Metrics
+
 #### HTTP Requests Response Time:
 
 - Metric: http_server_requests_seconds
@@ -45,7 +47,7 @@ Example Grafana Panels:
 
 - Metric: hikaricp_connections_active
 
-#### Screenshots
+## Screenshots
 
 ![img.png](http_server_requests_seconds.png)
 
